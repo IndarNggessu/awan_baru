@@ -6,5 +6,14 @@ handlers:
 - url: /assets/css
   static_dir: css
 
+- url: /assets/img
+  static_dir: png
+
+- url: /assets/js
+  static_dir: js
+
 - url: /.*
   script: index.php
+  
+- url: /.*
+  script: config.php
